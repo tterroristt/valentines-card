@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valentine</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+
+<body>
+
+<div id="nameOverlay" role="button" tabindex="0">
+  <h2>For the love of my life.</h2>
+  <p class="overlay-subtext">
+    Click anywhere to open
+  </p>
+</div>
+
+<div id="countdown"></div>
+<canvas id="confetti"></canvas>
+
+<iframe
+  class="spotify-player"
+  src="https://open.spotify.com/embed/track/6cx5CvFhqN19efStehJqoW"
+  width="300"
+  height="80"
+  frameborder="0"
+  loading="lazy"
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+</iframe>
+
+<div class="envelope-container" id="envelope">
+  <div class="envelope-back"></div>
+  <div class="wax-seal" id="seal"></div>
+  <div class="envelope-flap" id="flap"></div>
+
+  <div class="letter" id="letter">
+    <div class="letter-text" id="questionText"></div>
+    <div class="buttons">
+      <button class="yes" id="yesBtn">Yes</button>
+      <button class="no" id="noBtn">No</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
